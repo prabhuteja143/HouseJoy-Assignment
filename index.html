@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>House Joy | Prabhu - Assignment</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/46db34d588.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <nav class="main-navbar">
+            <div class="nav-wrapper custom-nav">
+                <a href="#" class="brand-logo custom-brand-logo">
+                    <img src="images/housejoy-logo.svg" class="nav-logo-img" alt="House Joy Logo">
+                </a>
+
+                <form
+                    style="background-color: #fff;height: 40px;border-radius: 5px;display: inline-block;position: absolute;top: 50%;left: 40%;transform: translate(-50% , -50%);">
+                    <div class="input-field">
+                        <input id="search" type="search" placeholder="Search for a service e.g. AC" required=""
+                            autocomplete="off"
+                            style="padding-left: 2.5rem;width: calc(100% - 3rem);margin-bottom: 0px;font-size: .85rem;min-width: 325px;border-radius: 5px;">
+                        <label class="label-icon active" for="search" style="left: .5rem !important;"><i
+                                class="material-icons"
+                                style="font-size: 1.5rem;line-height: 40px;height: 40px !important;color: #3c3b5c;font-weight: 600;">search</i></label>
+                        <i class="material-icons"
+                            style="height: 40px;line-height: 40px; font-size: 1rem !important;">close</i>
+                    </div>
+                </form>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" class="valign-wrapper f-s-9"><img src="images/partner-user-icon.svg"
+                                class="nav-header-right-icons" alt="Partner Icon"><span>Become a
+                                Partner</span></a></li>
+                    <li><a href="#" class="valign-wrapper f-s-9">
+                            <img src="images/maps-icon.svg" alt="Map Location Icon" class="nav-header-right-icons">
+                            <span class="location-txt">365, 6th Main Rd, HAL 2nd Stage, Indiranagar, Bengaluru,
+                                Karnataka
+                                560038, India</span>
+                        </a>
+                    </li>
+                    <li><a href="#login-modal" class="modal-trigger login-hover"><span
+                                class="login-txt">Login</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="shpping-cart-hover">
+                            <i class="material-icons shopping-cart-icon">shopping_cart</i>
+                            <span class="badge">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="navbar-second">
+            <div class="dropdown-custom">
+                <button class="dropbtn">Recent Launches
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-custom-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+
+            <div class="dropdown-custom">
+                <button class="dropbtn">Salon at Home
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-custom-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 2</a>
+                </div>
+            </div>
+
+            <div class="dropdown-custom">
+                <button class="dropbtn">Home Cleaning
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-custom-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                </div>
+            </div>
+
+            <div class="dropdown-custom">
+                <button class="dropbtn">Painting
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-custom-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
+            <div class="dropdown-custom">
+                <button class="dropbtn">Appliance
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-custom-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
+            <div class="dropdown-custom">
+                <button class="dropbtn">Home Repairs
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-custom-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="hero-banner-images">
+            <a herf="#">
+                <img src="images/hero-banner.jpg" alt="Hero Banner Image" class="responsive-img"
+                    style="cursor: pointer;">
+            </a>
+            <a herf="#">
+                <img src="images/Banner2.jpg" alt="Hero Banner Image 2" class="responsive-img" style="cursor: pointer;">
+            </a>
+        </div>
+        <div class="container" style="width:80%;margin: 1rem auto 2rem auto;">
+            <div class="row no-margin m-b-20">
+                <div class="col s12 m12 l12 xl12 no-padding valign-wrapper" style="margin:.5rem 0rem 1rem 0rem">
+                    <h2 class="no-margin f-w-6" style="font-size: 1.15rem;display: inline-block;">Construction,
+                        Renovation &amp; Interior</h2>
+                    <div
+                        style="display: inline-block;background-color: #ff8f00;padding: .25rem 1rem;border-radius: 30px;font-size: .75rem;font-weight: 500;color: #fff;margin: 0 1rem;">
+                        <span class="valign-wrapper"><i class="material-icons"
+                                style="font-size: .75rem;margin-right: .25rem;">star</i>Newly
+                            Launched</span></div>
+                </div>
+                <div class="col s12 m12 l12 xl12 wrapper">
+                    <div class="images-sliding">
+                        <div class="card"><img src="images/const-images/1.jpg" class="responsive-img">
+                            <P class="f-s-7 f-w-6">Construction Packages starting at Rs. 1600 per Sqft</P>
+                        </div>
+                        <div class="card"><img src="images/const-images/2.jpg" class="responsive-img">
+                            <P class=" f-s-7 f-w-6">Interior Design Packages starting at Rs. 3.5 lakh only.</P>
+                        </div>
+                        <div class="card"><img src="images/const-images/3.jpg" class="responsive-img">
+                            <P class=" f-s-7 f-w-6">Reinvent Home with Housejoy Renovation</P>
+                        </div>
+                        <div class="card"><img src="images/const-images/2.jpg" class="responsive-img">
+                            <P class=" f-s-7 f-w-6">Interior Design starting at Rs. 3.5 lakh only.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-margin m-b-20">
+                <div class="col s12 m12 l12 xl12 no-padding valign-wrapper" style="margin:.5rem 0rem 1rem 0rem">
+                    <h2 class="no-margin f-w-6" style="font-size: 1.15rem;display: inline-block;">Home Maintenance
+                        Services</h2>
+                </div>
+                <div class="col s12 m12 l12 xl12 wrapper" style="background-color:unset;">
+                    <div class="images-sliding2">
+                        <div><img src="images/hms-icon/Beauty.svg">
+                            <P class="no-margin f-s-6">SALOON AT HOME</P>
+                        </div>
+                        <div><img src="images/hms-icon/Home_Cleaning.svg">
+                            <P class="no-margin f-s-6">HOME CLEANING</P>
+                        </div>
+                        <div><img src="images/hms-icon/pest_control.svg">
+                            <P class="no-margin f-s-6">PEST CONTROL</P>
+                        </div>
+                        <div><img src="images/hms-icon/appliances.svg">
+                            <P class="no-margin f-s-6">APPLIANCES</P>
+                        </div>
+                        <div><img src="images/hms-icon/plumbing.svg">
+                            <P class="no-margin f-s-6">PLUMBING</P>
+                        </div>
+                        <div><img src="images/hms-icon/electrical.svg">
+                            <P class="no-margin f-s-6">ELECTRICAL</P>
+                        </div>
+                        <div><img src="images/hms-icon/carpentry.svg">
+                            <P class="no-margin f-s-6">CARPENTRY</P>
+                        </div>
+                        <div><img src="images/hms-icon/Painting.svg">
+                            <P class="no-margin f-s-6">PAINTING</P>
+                        </div>
+                        <div><img src="images/hms-icon/computer_repair.svg">
+                            <P class="no-margin f-s-6">COMPUTER REPAIR</P>
+                        </div>
+                        <div><img src="images/hms-icon/PEC_Inspection.svg">
+                            <P class="no-margin f-s-6">INSPECTION & REPAIR</P>
+                        </div>
+                        <div><img src="images/hms-icon/Construction.svg">
+                            <P class="no-margin f-s-6">CONSTRUCTION</P>
+                        </div>
+                        <div><img src="images/hms-icon/renovation.svg">
+                            <P class="no-margin f-s-6">RENOVATION & REFURBISHMENT</P>
+                        </div>
+                        <div><img src="images/hms-icon/Interior_Design.svg">
+                            <P class="no-margin f-s-6">INTERIOR DESING</P>
+                        </div>
+                        <div><img src="images/hms-icon/packers_movers.svg">
+                            <P class="no-margin f-s-6">PACKERS & MOVERS</P>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row no-margin m-b-20">
+                <div class="col s12 m12 l12 xl12 no-padding valign-wrapper" style="margin:.5rem 0rem 1rem 0rem">
+                    <h2 class="no-margin f-w-6" style="font-size: 1.15rem;display: inline-block;">Festive Offers</h2>
+                </div>
+                <div class="col s12 m12 l12 xl12 wrapper">
+                    <div class="images-sliding">
+                        <div class="card"><img src="images/festiv-imgs/f1.jpg" class="responsive-img">
+                            <P class="f-s-7 f-w-6">Construction Packages starting at Rs. 1600 per Sqft</P>
+                        </div>
+                        <div class="card"><img src="images/festiv-imgs/f2.jpg" class="responsive-img">
+                            <P class=" f-s-7 f-w-6">Interior Design Packages starting at Rs. 3.5 lakh only.</P>
+                        </div>
+                        <div class="card"><img src="images/festiv-imgs/f3.jpg" class="responsive-img">
+                            <P class=" f-s-7 f-w-6">Reinvent Home with Housejoy Renovation</P>
+                        </div>
+                        <div class="card"><img src="images/festiv-imgs/f4.jpg" class="responsive-img">
+                            <P class=" f-s-7 f-w-6">Interior Design starting at Rs. 3.5 lakh only.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- login Modal code starts here -->
+        <div id="login-modal" class="modal" style="width:35%;">
+            <div class="modal-content no-padding">
+                <p style="font-size: 1.25rem;text-align: center;font-weight: 600;">Login</p>
+                <a href="#!" style="position: absolute;top: 0.75rem; right: 0;" class="modal-close btn-flat right"><i
+                        class="material-icons"> close</i></a>
+                <div class="container" style="margin:5rem auto 3rem auto;width: 80%;">
+                    <div class="row">
+                        <div class="input-field col s12 m12 l12 xl12 f-s-9">
+                            <span style="position: absolute;top: 30%;" class="f-s-8"><img src="images/ind-flag.png"
+                                    alt="Indian Flag" style="width: 22px;"><span
+                                    style="position: relative;bottom: 3px;margin-left: .25rem;">+91</span></span>
+                            <input placeholder="Enter Mobile Number" id="first_name" type="number"
+                                class="validate f-s-9" style="padding-left: 4rem; width: 80%;">
+                            <label for="first_name" class="active">Mobile Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12 l12 xl12">
+                            <button class="btn waves-effect waves-light f-s-9"
+                                style="width:100%;border-radius: 40px;font-weight: 500;background-color: #eb5160;"
+                                type="submit" name="action">Verify Number
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12 l12 xl12">
+                            <p style="text-align: center;margin: 0;">OR</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12 l12 xl12">
+                            <button class="btn waves-effect waves-light f-s-9"
+                                style="width:100%;border-radius: 40px;font-weight: 500;background-color: #0087ff;"
+                                type="submit" name="action">One tap Login
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12 m12 l12 xl12 center-align">
+                            <p class="f-s-9 ">Already have account?</p>
+                            <a class="f-s-9 f-w-6" style="color: #eb5160;">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <img src="images/footer.jpg" alt="Footer-image" class="responsive-img">
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.modal').modal({
+                endingTop: '20%',
+            });
+
+
+            $('.hero-banner-images').slick({
+                dots: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+            $('.images-sliding').slick({
+                dots: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: false,
+            });
+            $('.images-sliding2').slick({
+                dots: false,
+                speed: 300,
+                slidesToShow: 8,
+                slidesToScroll: 1,
+                infinite: false,
+            });
+        });
+    </script>
+</body>
+
+</html>
