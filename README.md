@@ -2,7 +2,7 @@
 
 Hi HouseJoy Team,
 
-My Name is PrabhuTeja Katakam, I had attended interview on 28th SEP 2019 for the position of UI/UX Developer.I have been completed HouseJoy website UI.
+My Name is PrabhuTeja Katakam, I had attended interview on 28th SEP 2019 for the position of UI/UX Developer.I have been completed HouseJoy website UI and login popup UI. For login Popup please click the login button.
 
 # Technologies Used
 
@@ -16,20 +16,20 @@ My Name is PrabhuTeja Katakam, I had attended interview on 28th SEP 2019 for the
 # File Structure Details 
 
 HouseJoy-Assignment/
-  |--css/
-  |  |--style.css
-  |
-  |--images/
-  |  |--const-images/..inside all constructed related images
-  |  |--festiv-images/..inside all festival related images
-  |  |--hms-icon/.inside all Home maintainance services related images
-  |  |--Banner2.jpg
-  |  More...
-  |
-  |--js/
-  |  |--slick/
-  |
-  |--index.html
+-  |--css/
+-  |  |--style.css
+-  |
+-  |--images/
+-  |  |--const-images/..inside all constructed related images
+-  |  |--festiv-images/..inside all festival related images
+-  |  |--hms-icon/.inside all Home maintainance services related images
+-  |  |--Banner2.jpg
+-  |  More...
+-  |
+-  |--js/
+-  |  |--slick/
+-  |
+-  |--index.html
   
   # View is Pixel Perfect.
   
