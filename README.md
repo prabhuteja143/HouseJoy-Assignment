@@ -20,14 +20,14 @@ HouseJoy-Assignment/
 > - |--style.css
 > 
 > - --images/
-> - |--const-images/..inside all constructed related images
-> - |--festiv-images/..inside all festival related images
-> - |--hms-icon/.inside all Home maintainance services related images
-> - |--Banner2.jpg
+> - > --const-images/..inside all constructed related images
+> - > --festiv-images/..inside all festival related images
+> - > --hms-icon/.inside all Home maintainance services related images
+> - > --Banner2.jpg
 > - More...
 > 
 > - --js/
-> - |--slick/
+> - > slick/
 > 
 > - --index.html
   
