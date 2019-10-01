@@ -24,7 +24,7 @@ HouseJoy-Assignment/
 > - > --festiv-images/..inside all festival related images
 > - > --hms-icon/.inside all Home maintainance services related images
 > - > --Banner2.jpg
-> - More...
+> - > --Remaining images...
 > 
 > - --js/
 > - > slick/
