@@ -443,4 +443,11 @@ footer {
         min-width: unset !important;
         margin-bottom: 0 !important;
     }
+
+    .login-mobile {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
 }
