@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>House Joy | Prabhu - Assignment</title>
-    <link rel="icon" href=images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#3c3b5c">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,15 +24,14 @@
     <header class="fixed-header">
         <nav class="main-navbar">
             <div class="nav-wrapper custom-nav">
-                <a href="#" class="brand-logo custom-brand-logo">
+                <a href="#" class="custom-brand-logo">
                     <img src="images/housejoy-logo.svg" class="nav-logo-img" alt="House Joy Logo">
                 </a>
 
-                <form
-                    style="background-color: #fff;height: 40px;border-radius: 5px;display: inline-block;position: absolute;top: 50%;left: 40%;transform: translate(-50% , -50%);">
+                <form class="search-form hide-on-med-and-down show-on-large">
                     <div class="input-field">
-                        <input id="search" type="search" placeholder="Search for a service e.g. AC" required=""
-                            autocomplete="off"
+                        <input id="search" class="header-input-search" type="search"
+                            placeholder="Search for a service e.g. AC" required="" autocomplete="off"
                             style="padding-left: 2.5rem;width: calc(100% - 3rem);margin-bottom: 0px;font-size: .85rem;min-width: 325px;border-radius: 5px;">
                         <label class="label-icon active" for="search" style="left: .5rem !important;"><i
                                 class="material-icons"
@@ -41,6 +40,23 @@
                             style="height: 40px;line-height: 40px; font-size: 1rem !important;">close</i>
                     </div>
                 </form>
+
+                <div class="row no-margin mobile-search hide-on-large-only">
+                    <div class="col s12 m12 l12 xl12 search-form">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" class="header-input-search" type="search"
+                                    placeholder="Search for a service e.g. AC" required="" autocomplete="off"
+                                    style="padding-left: 2.5rem;width: calc(100% - 3rem);margin-bottom: 0px;font-size: .85rem;min-width: 325px;border-radius: 5px;">
+                                <label class="label-icon active" for="search" style="left: .5rem !important;"><i
+                                        class="material-icons"
+                                        style="font-size: 1.5rem;line-height: 40px;height: 40px !important;color: #3c3b5c;font-weight: 600;">search</i></label>
+                                <i class="material-icons"
+                                    style="height: 40px;line-height: 40px; font-size: 1rem !important;">close</i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#" class="valign-wrapper f-s-9"><img src="images/partner-user-icon.svg"
                                 class="nav-header-right-icons" alt="Partner Icon"><span>Become a
@@ -159,13 +175,12 @@
                 <img src="images/Banner2.jpg" alt="Hero Banner Image 2" class="responsive-img" style="cursor: pointer;">
             </a>
         </div>
-        <div class="container" style="width:80%;margin: 1rem auto 2rem auto;">
-            <div class="row no-margin m-b-20">
-                <div class="col s12 m12 l12 xl12 no-padding valign-wrapper" style="margin:.5rem 0rem 1rem 0rem">
-                    <h2 class="no-margin f-w-6" style="font-size: 1.15rem;display: inline-block;">Construction,
+        <div class="container full-data-container">
+            <div class="row no-margin sliding-row">
+                <div class="col s12 m12 l12 xl12 valign-wrapper slide-division-heading-sec">
+                    <h2 class="no-margin f-w-6 slide-division-heading">Construction,
                         Renovation &amp; Interior</h2>
-                    <div
-                        style="display: inline-block;background-color: #ff8f00;padding: .25rem 1rem;border-radius: 30px;font-size: .75rem;font-weight: 500;color: #fff;margin: 0 1rem;">
+                    <div class="new-trend-badge right no-margin">
                         <span class="valign-wrapper"><i class="material-icons"
                                 style="font-size: .75rem;margin-right: .25rem;">star</i>Newly
                             Launched</span></div>
@@ -187,9 +202,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-margin m-b-20">
-                <div class="col s12 m12 l12 xl12 no-padding valign-wrapper" style="margin:.5rem 0rem 1rem 0rem">
-                    <h2 class="no-margin f-w-6" style="font-size: 1.15rem;display: inline-block;">Home Maintenance
+            <div class="row no-margin">
+                <div class="col s12 m12 l12 xl12 valign-wrapper slide-division-heading-sec">
+                    <h2 class="no-margin f-w-6 slide-division-heading">Home Maintenance
                         Services</h2>
                 </div>
                 <div class="col s12 m12 l12 xl12 wrapper" style="background-color:unset;">
@@ -240,9 +255,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-margin m-b-20">
-                <div class="col s12 m12 l12 xl12 no-padding valign-wrapper" style="margin:.5rem 0rem 1rem 0rem">
-                    <h2 class="no-margin f-w-6" style="font-size: 1.15rem;display: inline-block;">Festive Offers</h2>
+            <div class="row no-margin sliding-row">
+                <div class="col s12 m12 l12 xl12 valign-wrapper slide-division-heading-sec">
+                    <h2 class="no-margin f-w-6 slide-division-heading">Festive Offers</h2>
                 </div>
                 <div class="col s12 m12 l12 xl12 wrapper">
                     <div class="images-sliding">
@@ -283,22 +298,20 @@
                     </div>
                     <div class="row">
                         <div class="col s12 m12 l12 xl12">
-                            <button class="btn waves-effect waves-light f-s-9"
-                                style="width:100%;border-radius: 40px;font-weight: 500;background-color: #eb5160;"
-                                type="submit" name="action">Verify Number
+                            <button class="btn waves-effect waves-light f-s-9 login-btn" type="submit"
+                                name="action">Verify Number
                             </button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s12 m12 l12 xl12">
-                            <p style="text-align: center;margin: 0;">OR</p>
+                            <p class="no-margin center-align">OR</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s12 m12 l12 xl12">
-                            <button class="btn waves-effect waves-light f-s-9"
-                                style="width:100%;border-radius: 40px;font-weight: 500;background-color: #0087ff;"
-                                type="submit" name="action">One tap Login
+                            <button class="btn waves-effect waves-light f-s-9 one-tap-btn" type="submit"
+                                name="action">One tap Login
                             </button>
                         </div>
                     </div>
@@ -306,7 +319,7 @@
                     <div class="row">
                         <div class="col s12 m12 l12 xl12 center-align">
                             <p class="f-s-9 ">Already have account?</p>
-                            <a class="f-s-9 f-w-6" style="color: #eb5160;">Sign In</a>
+                            <a class="f-s-9 f-w-6">Sign In</a>
                         </div>
                     </div>
                 </div>
@@ -318,11 +331,29 @@
     <footer>
         <img src="images/footer.jpg" alt="Footer-image" class="responsive-img">
     </footer>
+
+    <!-- chatting icon -->
+    <div class="fixed-action-btn" style="bottom: 15px; right: 15px;">
+        <span class="f-s-7 f-w-5 chat-txt">We
+            are
+            online! How may I Help!</span>
+        <a class="btn-floating btn-large cht-a pulse red" href="#Chatbox">
+            <i class="material-icons chat-icon">chat</i>
+        </a>
+    </div>
     <!-- Compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/slick/slick.min.js"></script>
     <script>
+        setTimeout(function () {
+            $(".chat-txt").show(450);
+        }, 1000);
+
+        setTimeout(function () {
+            $('.chat-txt').fadeOut('slow');
+        }, 8000);
+
         $(document).ready(function () {
             $('.modal').modal({
                 endingTop: '15%',
@@ -342,6 +373,30 @@
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: false,
+
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                    }
+                ]
+
             });
             $('.images-sliding2').slick({
                 dots: false,
@@ -349,6 +404,29 @@
                 slidesToShow: 8,
                 slidesToScroll: 1,
                 infinite: false,
+
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 6,
+                            slidesToScroll: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 2,
+                        }
+                    }
+                ]
             });
         });
     </script>
