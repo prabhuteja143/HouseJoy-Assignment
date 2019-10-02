@@ -1,4 +1,4 @@
-# HouseJoy-Assignment
+# HouseJoy-Assignment (Highly Mobile-first Responsive with Pixel Perfect).
 
 Hi HouseJoy Team,
 
@@ -31,9 +31,6 @@ HouseJoy-Assignment/
 > 
 > - --index.html
 
-# Highly Mobile-first Responsive with Pixel Perfect code.
-
-Note
-----
+*Note
 1. Mobile Responsive in your current website is developed with Dynamic serving concept.If you want i will do that one also.For that purpose we need to wirte other HTML and CSS code.
 2. Please check this code and if you want remaing tasks please let me know i will complete remaining tasks.
