@@ -2,7 +2,7 @@
 
 Hi HouseJoy Team,
 
-My Name is PrabhuTeja Katakam, I had attended interview on 28th SEP 2019 for the position of UI/UX Developer.I have been completed HouseJoy website UI and login popup UI. For login Popup please click the login button.
+My Name is PrabhuTeja Katakam, I had attended interview on 28th SEP 2019 for the position of UI/UX Developer.I have been completed HouseJoy website UI and login popup UI with fully mobile and destop responsive. For login Popup please click the login button.
 
 # Technologies Used
 
@@ -30,7 +30,10 @@ HouseJoy-Assignment/
 > - > slick/
 > 
 > - --index.html
-  
-  # View is Pixel Perfect.
-  
-  Note: Mobile Responsive is not completed fully. Because i want some more time to complete. Please check this code and if you want remaing tasks please let me know i will complete remaining tasks.
+
+# Highly Mobile-first Responsive with Pixel Perfect code.
+
+Note
+----
+1. Mobile Responsive in your current website is developed with Dynamic serving concept.If you want i will do that one also.For that purpose we need to wirte other HTML and CSS code.
+2. Please check this code and if you want remaing tasks please let me know i will complete remaining tasks.
