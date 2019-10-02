@@ -32,5 +32,6 @@ HouseJoy-Assignment/
 > - --index.html
 
 *Note
+1.Footer code is not developed. It is an Image. Because in the task footer is not there, So thats why i didn't developed. so footer will not come mobile responsive in mobile view same view will come in all screens. If you want i will implement that one also.
 1. Mobile Responsive in your current website is developed with Dynamic serving concept.If you want i will do that one also.For that purpose we need to wirte other HTML and CSS code.
 2. Please check this code and if you want remaing tasks please let me know i will complete remaining tasks.
