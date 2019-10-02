@@ -1,4 +1,4 @@
-# HouseJoy-Assignment (Highly Mobile-first Responsive with Pixel Perfect).
+# HouseJoy-Assignment (Mobile-First with Pixel Perfect).
 
 Hi HouseJoy Team,
 
